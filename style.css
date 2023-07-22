@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Tektur';
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0,0, 0.75);
+    border-radius: 4px;
+    padding: 8px;
+    background: rgb(30,22,162);
+    background: #1e2326;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    background-attachment: fixed;
+}
+header{
+    padding: 80px;
+    text-align: center;
+    box-shadow: -1px 1px 7px 0px white;
+    border-radius: 4px;
+    padding: 8px;
+    background-color:transparent;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0,0, 0.75);
+    border-radius: 4px;
+    padding: 18px;
+}
+aside{
+    flex:30px;
+    background-color:transparent;
+    padding: 20px;
+    text-align: center;
+    box-shadow: -1px 1px 7px 0px white;
+    border-radius: 4px;
+    padding: 8px;    
+    font-family: 'Tektur';
+    color:aliceblue;
+
+}
+section{
+    flex:70%;
+    padding: 20px;
+    box-shadow: -1px 1px 7px 0px white;
+    border-radius: 4px;
+    padding: 8px;
+    font-family: 'Tektur';
+    color:aliceblue;
+}
+footer{
+    padding: 30px;
+    text-align: center;
+    background-color: transparent;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0,0, 0.75);
+    border-radius: 8px;
+}
+.inicio{
+    display: flex;
+    align-items: center;
+}
+.inicio .contenido-banner{
+    padding: 20px;
+    background-color: #1e2326;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+.inicio .contenido-banner img{
+    margin-top: 40px;
+    border: 10px solid #1CB698;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+.inicio .contenido-banner h1{
+    color:aliceblue;
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: 'Tektur';
+}
+.inicio .contenido-banner h2{
+    color:aliceblue;
+    margin-top: 40px;
+    font-size: 16px;
+    font-family: 'Tektur';
+}
+.sobremi{
+    background-color:#1e2326;
+    color: #fff;
+    padding: -1000px;
+}
+.sobremi .contenido-seccion{
+    max-width: 1200px;
+    margin: auto;
+}
+.sobremi h2{
+    font-size: 35px;
+    font-family: 'Tektur';
+    text-align: center;
+    padding: 20px 0;
+}
+.sobremi .contenido-seccion p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.sobremi .contenido-seccion p span{
+    color: cadetblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sobremi .fila{
+    display: flex;
+}
+.sobremi .fila .col{
+    width: 50%;
+}
+.sobremi .fila .col h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.sobremi .fila .col ul{
+    list-style: none;
+}
+.sobremi .fila .col ul li{
+    margin: 12px 0;
+}
+.sobremi .fila .col ul li strong{
+    display: inline-block;
+    color: cadetblue;
+    width: 130px;
+} 
+.sobremi .fila .col ul li span{
+    background-color: #1CB698;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 5px;
+} 
+.sobremi .fila .col .contenedor-tecnico{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sobremi .fila .col .contenedor-tecnico .tecnico{
+    width: 300px;
+    height: 100px;
+    background-color: #1e2326;
+    border-radius: 10px;
+    margin: 2px 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .2s;
+    font-size: 18;
+    
+}.sobremi .fila .col .contenedor-tecnico .tecnico:hover{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.fa-solid{
+    color: cadetblue;
+    font-size: 30px;
+}
+.proy{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+.proy .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.proy h2{
+    font-size: 48px;
+    font-family: 'Tektur';
+    text-align: center;
+    padding: 20px 0;
+
+}
+.proy .fila{
+    display: flex;
+    justify-content: space-between;
+}
+.proy .fila .col{
+    width: 49%;
+    padding: 0 20px;
+}
+.proy .fila .col h3{
+    font-size: 28px;
+    font-family: 'Tektur';
+    margin-bottom: 25px;
+}
+.proy .fila .izquierda{
+    border-right: 2px solid #252A2E;
+}
+.proy .fila .derecha{
+    border-left: 2px solid #252A2E;
+}
+
+.proy .contenido-seccion .fila .col .izquierda .container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.container .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+
+
+.container .card h4{
+    font-weight: 600;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
